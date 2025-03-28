@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-family: 'Poppins', sans-serif; */
+            font-family: "Funnel Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            background: url(../img/fundologin.png);
+            display: flex;
+        }
+
+        .container {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: gray;
+            height: 50vh;
+            width: 60%;
+            border-radius: 40px;
+        }
+
+        .login-form {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .login-form h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login-form button {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-form button:hover {
+            background: #555;
+        }
+
+        .containerimg{
+            width: 40%;
+            height: 100vh;
+            background: url(../img/montanha.jpg) center no-repeat;
+            background-size: 100%;
+            display: flex;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <form class="login-form">
+                <h2>Login</h2>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <button type="submit">Entrar</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="containerimg">
+
+    </div>
+
+    
+    
+</body>
+</html>
