@@ -258,7 +258,7 @@ main h1{
 }
 
 .swiper {
-    width: 100%;
+    max-width: 200vh;
     height: 100%;
 }
 
@@ -322,12 +322,27 @@ main h1{
     background: #00b894;  Verde para Gamer 
 }*/
 
+
+
 .card-title {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    color: #2d3436;
+    color: #000000;
     margin: 10px 0 20px;
     line-height: 1.4;
+}
+
+.description {
+    color: #000000;
+}
+
+.description2 {
+    color: #000000;
+    margin-top: 30px;
+}
+
+.price {
+    font-size: 2em;
 }
 
 .card-button {
@@ -345,7 +360,7 @@ main h1{
     transition: transform 0.3s ease;
 }
 
- .card-button {
+.card-button {
     background: linear-gradient(135deg, #ff9c4c 0%, #ca5b00 100%);
 }
 
@@ -370,25 +385,6 @@ main h1{
     background: #4a6cf7;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-    color: #4a6cf7;
-    width: 40px;
-    height: 40px;
-    background: white;
-    border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    font-size: 20px;
-    font-weight: bold;
-}
-
 @media screen and (max-width: 768px) {
     .card-slider {
         padding: 20px 0 50px;
@@ -402,12 +398,12 @@ main h1{
 /* Estilos para as setas de navegação */
 .swiper-button-next,
 .swiper-button-prev {
-    color: #4a6cf7 !important; /* Cor das setas */
-    width: 40px !important;
-    height: 40px !important;
-    background: white !important;
+    color: #2541b2 !important; /* Cor das setas */
+    width: 60px !important;
+    height: 60px !important;
+    /* background: white !important; */
     border-radius: 50% !important;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important; */
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -416,11 +412,11 @@ main h1{
 }
 
 .swiper-button-prev {
-    left: 10px !important;
+    left: -3px !important;
 }
 
 .swiper-button-next {
-    right: 10px !important;
+    right: -3px !important;
 }
 
 .swiper-button-next::after,
@@ -434,6 +430,8 @@ main h1{
 .swiper-button-prev {
     z-index: 10 !important;
 }
+
+/* footer */
 
 footer {
     display: flex;

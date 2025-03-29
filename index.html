@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,31 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Responsividade -->
-    <link rel="stylesheet" href="./css/mediaquery.css" >
+    <link rel="stylesheet" href="./css/mediaquery.css">
     <!-- google-fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lilita+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lilita+One&display=swap"
+        rel="stylesheet">
     <!-- google-icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
     <!-- Link Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
-    
 
-    
+
+
 </head>
+
 <body>
     <nav class="navbar">
-        <div ><h1><a class="logo" href="index.html">UNKTRAVEL</a></h1></div>
+        <div>
+            <h1><a class="logo" href="index.html">UNKTRAVEL</a></h1>
+        </div>
         <ul class="nav-links">
             <li><a class="link" href="#"><img src="img/bussola.png" alt="" title="Explore"></a></li>
             <li><a class="link" href="#" title="Favoritos"><i class="bi bi-heart"></i></a></li>
@@ -35,36 +42,36 @@
     </nav>
 
     <div class="service">
-            <div class="icon">
-                <a href="#"> <i class="fa-solid fa-plane-departure"></i>Passagens</a>
-            </div>
-            <div class="icon">
-                <a href="#"><i class="bi bi-building"></i>Hotéis</a>
-            </div>
-            <div class="icon">
-                <a href="#"><i class="bi bi-suitcase-lg"></i>Pacotes</a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="img/boat.png" alt="" width="25">Cruzeiro</a>
-            </div>
-            <div class="icon">
-                <a href="#">Ofertas</a>
-            </div>
-            <div class="icon">
-                <a href="#">Aluguéis</a>
-            </div>
-            <div class="icon">
-                <a href="#">Carros</a>
-            </div>
-            <div class="icon">
-                <a href="#">Ônibus</a>
-            </div>
-            <div class="icon">
-                <a href="#"><img id="promo" src="img/discount.png" alt="" width="25">Promoções</a>
-            </div>
-            <div class="icon">
-                <a href="#">Passeios</a>
-            </div>
+        <div class="icon">
+            <a href="#"> <i class="fa-solid fa-plane-departure"></i>Passagens</a>
+        </div>
+        <div class="icon">
+            <a href="#"><i class="bi bi-building"></i>Hotéis</a>
+        </div>
+        <div class="icon">
+            <a href="#"><i class="bi bi-suitcase-lg"></i>Pacotes</a>
+        </div>
+        <div class="icon">
+            <a href="#"><img src="img/boat.png" alt="" width="25">Cruzeiro</a>
+        </div>
+        <div class="icon">
+            <a href="#">Ofertas</a>
+        </div>
+        <div class="icon">
+            <a href="#">Aluguéis</a>
+        </div>
+        <div class="icon">
+            <a href="#">Carros</a>
+        </div>
+        <div class="icon">
+            <a href="#">Ônibus</a>
+        </div>
+        <div class="icon">
+            <a href="#"><img id="promo" src="img/discount.png" alt="" width="25">Promoções</a>
+        </div>
+        <div class="icon">
+            <a href="#">Passeios</a>
+        </div>
     </div>
 
     <header>
@@ -74,14 +81,15 @@
         <div class="container">
             <div class="content">
                 <h1>A experiência que cabe no seu bolso</h1>
-                <h3>Encontre as melhores ofertas de <span> passagens aéreas, hotéis, pacotes</span> e muito mais <span>!</span></h3>
+                <h3>Encontre as melhores ofertas de <span> passagens aéreas, hotéis, pacotes</span> e muito mais
+                    <span>!</span></h3>
 
                 <div class="menu">
                     <button class="active" onclick="changeSearch('viagens', event)">Viagens</button>
                     <button onclick="changeSearch('hospedagens', event)">Hospedagens</button>
                     <button onclick="changeSearch('carros', event)">Carros</button>
                 </div>
-            
+
                 <div class="search-container" id="search-box">
                     <input type="text" placeholder="Origem">
                     <input type="text" placeholder="Destino">
@@ -89,9 +97,9 @@
                     <input type="date">
                     <button class="search-button">Buscar</button>
                 </div>
-            
+
                 <script>
-                    
+
                 </script>
             </div>
 
@@ -99,7 +107,7 @@
                 <img src="img/Banner.jpg" alt="">
             </div>
         </div>
-            
+
     </header>
 
 
@@ -116,62 +124,85 @@
                         <a href="#" class="card-link">
                             <img src="img/propa1.png" alt="Card image" class="card-image">
                             <p class="badge">Pacotes</p>
-                            <h2 class="card-title"><i class="fa-solid fa-plane"></i> Rio de Janeiro</h2>
+                            <h2 class="card-title">Rio de Janeiro</h2>    
+                                <p class="description"><i class="fa-solid fa-plane"> 07 de Abr 2025 - 10 d...</i></p>
+                                <p class="description2">Pacotes a partir de <br> R$ <span class="price">750</span></p>
                             <button class="card-button material-symbols-outlined">
                                 arrow_forward
                             </button>
                         </a>
                     </div>
                 </div>
-                
+
                 <!-- Slide 2 -->
                 <div class="swiper-slide">
                     <div class="card-item">
                         <a href="#" class="card-link">
                             <img src="img/propa1.png" alt="Card image" class="card-image">
                             <p class="badge">Pacotes</p>
-                            <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+                            <h2 class="card-title">Rio de Janeiro</h2>    
+                                <p class="description"><i class="fa-solid fa-plane"> 07 de Abr 2025 - 10 d...</i></p>
+                                <p class="description2">Pacotes a partir de <br> R$ <span class="price">750</span></p>
                             <button class="card-button material-symbols-outlined">
                                 arrow_forward
                             </button>
                         </a>
                     </div>
                 </div>
-                
+
                 <!-- Slide 3 -->
                 <div class="swiper-slide">
                     <div class="card-item">
                         <a href="#" class="card-link">
                             <img src="img/propa1.png" alt="Card image" class="card-image">
                             <p class="badge">Pacotes</p>
-                            <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+                            <h2 class="card-title">Rio de Janeiro</h2>    
+                                <p class="description"><i class="fa-solid fa-plane"> 07 de Abr 2025 - 10 d...</i></p>
+                                <p class="description2">Pacotes a partir de <br> R$ <span class="price">750</span></p>
                             <button class="card-button material-symbols-outlined">
                                 arrow_forward
                             </button>
                         </a>
                     </div>
                 </div>
-                
+
                 <!-- Slides adicionais (repetidos para exemplo) -->
                 <div class="swiper-slide">
                     <div class="card-item">
                         <a href="#" class="card-link">
                             <img src="img/propa1.png" alt="Card image" class="card-image">
                             <p class="badge">Pacotes</p>
-                            <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+                            <h2 class="card-title">Rio de Janeiro</h2>    
+                                <p class="description"><i class="fa-solid fa-plane"> 07 de Abr 2025 - 10 d...</i></p>
+                                <p class="description2">Pacotes a partir de <br> R$ <span class="price">750</span></p>
                             <button class="card-button material-symbols-outlined">
                                 arrow_forward
                             </button>
                         </a>
                     </div>
                 </div>
-                
+
+                <div class="swiper-slide">
+                    <div class="card-item">
+                        <a href="#" class="card-link">
+                            <img src="img/propa1.png" alt="Card image" class="card-image">
+                            <p class="badge">Pacotes</p>
+                            <h2 class="card-title">Rio de Janeiro</h2>    
+                                <p class="description"><i class="fa-solid fa-plane"> 07 de Abr 2025 - 10 d...</i></p>
+                                <p class="description2">Pacotes a partir de <br> R$ <span class="price">750</span></p>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
                 <!-- Mais slides conforme necessário -->
             </div>
-            
+
             <!-- Paginação -->
             <div class="swiper-pagination"></div>
-            
+
             <!-- Botões de navegação -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -217,11 +248,12 @@
                 </ul>
             </div>
         </div>
-        
+
     </footer>
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 <script src="./js/script.js"></script>
+
 </html>
