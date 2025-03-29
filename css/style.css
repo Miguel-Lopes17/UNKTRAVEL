@@ -104,7 +104,15 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 3%;
+    width: 100%;
 }
+
+/* Destino mobile */
+.mobile {
+    display: none;
+}
+
+/* Destino mobile */
 
 .content {
     display: flex;
@@ -117,10 +125,20 @@ body {
     width: 60%;
 }
 
-.banner img {
+.content h1 {
+    font-size: 1.5em;
+}
+
+.content .slogan {
+    font-size: 1.2em;
+    background: linear-gradient(94deg, #128f98 35%, #00d9ff 100%);
+    -webkit-background-clip: text;
+    color: transparent; 
+} 
+
+.banner {
     display: flex;
-    width: 40vh;
-    min-height: 60vh;
+    max-width: 43vh;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -130,7 +148,9 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 1.3em;
-    color: var(--ciano);
+    background: linear-gradient(94deg, #128f98 35%, #00d9ff 100%);
+    -webkit-background-clip: text;
+    color: transparent; 
 }
 
 /* menu viagens */
@@ -232,8 +252,12 @@ body {
 
 /* Card-slide */
 
-
-
+/* mobile */
+.main-h1 {
+    display: none;
+    
+}
+/* mobile */
 main {
     display: flex;
     flex-direction: column;
@@ -242,13 +266,13 @@ main {
     min-height: 100vh;
     background-color: #f5f7fa;
     padding: 20px;
+    width: 100%;
 }
 
 main h1{
     font-weight: 700;
     font-style: normal;
     line-height: 80px;
-    color: #0db1ce;
 }
 
 .card-slider {

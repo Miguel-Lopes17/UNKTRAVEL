@@ -1,31 +1,119 @@
 /* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
     .service {
         display: none;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .content {
         width: 100%;
 
     }
 
-    .banner img {
+    .content h3 {
+        display: none;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .container {
         display: none;
     }
 
     .footer {
         flex-direction: column;
     }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        background-color: #0db1ce;
+        margin-top: 10%;
+    }
+
+    .mobile h1 {
+        font-size: 1.5em;
+        margin: 10px;
+    }
+
+    .slogan {
+        font-size: 1.2em;
+        color: #c50069;
+    }
+
+    .menu-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100%;
+    }
+
+    .destino-mobile {
+        align-items: center;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 4%;
+        width: 70%;
+        outline: none;
+    }
+
+    .search-button-mobile {
+        height: 40px;
+        padding: 10px;
+        border: none;
+        background-color: #c50069;
+        border-radius: 5px;
+    }
+
+    .lupa {
+        color: #fff;
+    }
+
+    /* main */
+
+    main h1 {
+        display: none;
+    }
+
+    .main-h1 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 5%;
+        line-height: 4px;
+    }
+
+    .main-h1 h1 {
+        display: flex;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #000;
+        line-height: 40px;
+    }
+
+    .pact {
+        margin-right: 5px;
+    }
+
+    .main-h1 h2 {
+        display: flex;
+        font-size: 0.7em;
+        font-weight: bold;
+        color: #747474;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (max-width: 992px) {  }
+@media (max-width: 992px) {}
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {  }
+@media (max-width: 1200px) {}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (max-width: 1400px) {  }
+@media (max-width: 1400px) {}
